@@ -1,8 +1,53 @@
 h1 {
-	font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 
 a, h3, p, button {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, p, button, header {
+    border: dashed 1px red;
+}
+
+.wrapper{
+    margin: auto;
+    width: 91%;
+    border: dashed 1px red;
+}
+
+.header__logo, .menu {
+    padding: 40px 0;
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+}
+
+.menu__item, .menu__item_active {
+    padding: 0 12px;
+    border: dashed 1px red;
+}
+
+.menu__item:last-child {
+    padding-right: 0;
+}
+
+h1 {
+    width: 43%;
+}
+
+.main-content__text {
+    width: 36%
+}
+
+button{
+    width: 17%;
 }
 
