@@ -1,13 +1,39 @@
 @font-face {
-	font-family: 'PT Serif';
-	src: url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-	font-weight: 700;
-	font-style: normal;
+    font-family: 'pt_serifbold';
+    src: url('fonts/ptserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+
+
+
 @font-face {
-	font-family: 'Roboto';
-	src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-	font-weight: 500;
-	font-style: normal;
+    font-family: 'pt_serifbold_italic';
+    src: url('fonts/ptserif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifitalic';
+    src: url('fonts/ptserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serif';
+    src: url('fonts/ptserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
