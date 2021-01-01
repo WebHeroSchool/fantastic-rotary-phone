@@ -4,10 +4,6 @@
 	background: url('img/logo.svg');
 }
 
-a, h3, p, button {
-    font-family: 'Roboto', sans-serif;
-}
-
 header {
 	padding: 40px 0;
     display: flex;
@@ -23,6 +19,22 @@ header {
     display: flex;
     padding: 40px 0;
     align-content: center;
+}
+
+.menu__item {
+	font-family: robotoregular;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16.41px;
+}
+
+h1, p, button {
+	font-family: 'pt_serif';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 66.25px;
 }
 
 .menu__item, .menu__item_active {
