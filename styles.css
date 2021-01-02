@@ -1,8 +1,99 @@
-h1 {
-	font-family: 'PT Serif', serif;
+.header__logo {
+	width: 190px;
+	height: 35px;
+	background: url('img/logo.svg');
 }
 
-a, h3, p, button {
-	font-family: 'Roboto', sans-serif;
+header {
+	padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    margin: auto;
+    width: 91%;
+}
+
+.menu {
+    display: flex;
+    padding: 11px;
+    align-content: center;
+}
+
+.menu__item {
+	position: relative;
+	margin-right: 26px;
+	font-family: robotoregular, arial, helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16.41px;
+	padding: 0 12px;
+	color: #000;
+	text-decoration: none;
+	transition: opacity .5s;
+
+}
+
+.menu__item:after {
+	position: absolute;
+	left: 0;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: #0056EC;
+	opacity: 0;
+	transition:opacity .5s;
+
+}
+
+.menu__item_active::after {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #0056EC;
+}
+
+.menu__item:last-child {
+	margin-right: 0;
+}
+
+.menu__item:hover {
+	opacity: .5;
+}
+
+.menu__item:hover:after {
+	position: absolute;
+	left: 0;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: #0056EC;
+}
+
+.menu__item:hover:after, .menu__item_active:after {
+	opacity: 1;
+}
+
+h1, p, button {
+	font-family: 'pt_serif';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 66.25px;
+}
+
+
+.main-content__text {
+    width: 36%
+}
+
+button{
+    width: 17%;
 }
 
