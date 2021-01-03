@@ -22,6 +22,11 @@ header {
 }
 
 .menu__item {
+	font-family: robotoregular, arial, helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16px;
 	position: relative;
 	margin-right: 26px;
 	line-height: 16.41px;
@@ -92,7 +97,7 @@ h1 {
 	line-height: 21px;
 }
 
-.menu-item, .main-content__button_text {
+.main-content__button_text {
 	font-family: robotoregular, arial, helvetica, sans-serif;
 	font-weight: 500;
 	font-style: normal;
