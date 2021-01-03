@@ -111,10 +111,6 @@ h1 {
 .main__button {
 	display: inline-block;
 	font-family: 14px/16px robotoregular, arial, helvetica, sans-serif;
-	width: 168px;
-	height: 17px;
-	top: 545px;
-	left: 62px;
 	color: #fff;
 	background: #0056EC;
 	padding: 14px 16px;
