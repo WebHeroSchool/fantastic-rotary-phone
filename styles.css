@@ -80,7 +80,7 @@ header {
 	opacity: 1;
 }
 
-h1, p, button {
+h1, p {
 	font-family: 'pt_serif';
 	font-weight: 700;
 	font-style: normal;
@@ -89,17 +89,17 @@ h1, p, button {
 }
 
 h1 {
-	width: 567px;
-	height: 255px;
-	top: 318px;
-	left: 195px;
+	width: 434px;
+	height: 195px;
+	top: 212px;
+	left: 46px;
 }
 
 .main-content__text {
-	width: 455px;
-	height: 52px;
-	top: 613px;
-	left: 195px;
+	width: 367px;
+	height: 43px;
+	top: 447px;
+	left: 46px;
 }
 
 
@@ -108,10 +108,10 @@ h1 {
 }
 
 .main-content__button_text {
-	width: 250px;
-	height: 29px;
-	top: 724px;
-	left: 217px;
+	width: 168px;
+	height: 17px;
+	top: 545px;
+	left: 62px;
 }
 
 button{
