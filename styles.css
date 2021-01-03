@@ -88,9 +88,30 @@ h1, p, button {
 	line-height: 66.25px;
 }
 
+h1 {
+	width: 567px;
+	height: 255px;
+	top: 318px;
+	left: 195px;
+}
+
+.main-content__text {
+	width: 455px;
+	height: 52px;
+	top: 613px;
+	left: 195px;
+}
+
 
 .main-content__text {
     width: 36%
+}
+
+.main-content__button_text {
+	width: 250px;
+	height: 29px;
+	top: 724px;
+	left: 217px;
 }
 
 button{
