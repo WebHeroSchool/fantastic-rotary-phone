@@ -24,10 +24,6 @@ header {
 .menu__item {
 	position: relative;
 	margin-right: 26px;
-	font-family: robotoregular, arial, helvetica, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 14px;
 	line-height: 16.41px;
 	padding: 0 12px;
 	color: #000;
@@ -80,12 +76,28 @@ header {
 	opacity: 1;
 }
 
-h1, p {
+h1 {
 	font-family: 'pt_serif';
 	font-weight: 700;
 	font-style: normal;
 	font-size: 50px;
 	line-height: 66.25px;
+}
+
+.main-content__text {
+	font-family: robotoregular, arial, helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.menu-item, .main-content__button_text {
+	font-family: robotoregular, arial, helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 h1 {
