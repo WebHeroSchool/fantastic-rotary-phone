@@ -82,11 +82,16 @@ header {
 }
 
 h1 {
-	font-family: 'pt_serif';
+	font-family: 'pt_serif', arial, helvetica, sans-serif;
 	font-weight: 700;
-	font-style: normal;
+	font-style: bold;
 	font-size: 50px;
 	line-height: 66.25px;
+	width: 434px;
+	height: 195px;
+	top: 212px;
+	left: 46px;
+	margin: 0 0 40px 0;
 }
 
 .main-content__text {
@@ -95,6 +100,11 @@ h1 {
 	font-style: normal;
 	font-size: 18px;
 	line-height: 21px;
+	width: 367px;
+	height: 43px;
+	top: 447px;
+	left: 46px;
+	margin-bottom: 0 0 40px 0;
 }
 
 .main-content__button_text {
@@ -103,20 +113,6 @@ h1 {
 	font-style: normal;
 	font-size: 14px;
 	line-height: 16px;
-}
-
-h1 {
-	width: 434px;
-	height: 195px;
-	top: 212px;
-	left: 46px;
-}
-
-.main-content__text {
-	width: 367px;
-	height: 43px;
-	top: 447px;
-	left: 46px;
 }
 
 
