@@ -110,10 +110,11 @@ h1 {
 
 .main__button {
 	display: inline-block;
+	margin-bottom: 193px;
 	font: 14px/16px robotoregular, arial, helvetica, sans-serif;
 	color: #fff;
 	background: #0056EC;
-	padding: 14px 16px;
+	padding: 14px 16px ;
 	text-decoration: none;
 	border-radius: 4px;
 	transition: opacity .5s;
