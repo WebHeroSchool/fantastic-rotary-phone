@@ -34,7 +34,7 @@ header {
 	color: #000;
 	text-decoration: none;
 	transition: opacity .5s;
-
+    margin-bottom: 173px;
 }
 
 .menu__item:after {
@@ -130,7 +130,6 @@ h1 {
 .main {
 	padding-right: 0 63% 100px 0;
 	background: top right no-repeat url(img/main.svg);
-	margin-top: 173px;
 }
 
 .main__tittle-text_highlight {
