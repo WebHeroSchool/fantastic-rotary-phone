@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 246px;
+    left: 204px;
 }
 
 .wrapper{
