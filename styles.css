@@ -127,7 +127,11 @@ h1 {
 }*/
 
 .main {
-	padding: 0 63% 200px 0;
+	padding: 0 63% 100px 0;
+	width: 770px;
+	height: 657px;
+	left: 953px;
+	top: 242px;
 	background: top right no-repeat url(img/main.svg);
 }
 
