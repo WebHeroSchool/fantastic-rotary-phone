@@ -36,6 +36,10 @@ header {
 	transition: opacity .5s;
 }
 
+.menu__item_blog {
+	left: 1571px;
+}
+
 .menu__item:after {
 	position: absolute;
 	left: 0;
