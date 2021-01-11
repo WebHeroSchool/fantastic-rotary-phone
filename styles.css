@@ -98,7 +98,7 @@ h1 {
 	height: 255px;
 	top: 318px;
 	left: 195px;
-	margin: 191px 0 40px 0;
+	margin: 191px 0 44px 0;
 }
 
 .main__text {
@@ -120,7 +120,7 @@ h1 {
 	font: 18px/21px robotoregular, arial, helvetica, sans-serif;
 	color: #fff;
 	background: #0056EC;
-	padding: 18px 26px ;
+	padding: 19px 28px ;
 	text-decoration: none;
 	border-radius: 4px;
 	transition: opacity .5s;
