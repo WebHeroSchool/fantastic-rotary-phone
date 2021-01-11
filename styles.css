@@ -37,7 +37,11 @@ header {
 }
 
 .menu__item_blog {
-	left: 1571px;
+	left: 12px;
+}
+
+.menu__item_contact-us {
+	left: 14px;
 }
 
 .menu__item:after {
