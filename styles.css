@@ -147,3 +147,25 @@ h1 {
 	background: #ECF3FF;
 }
 
+
+@media (max-width: 1367px) {
+	.wrapper {
+    margin: auto;
+    width: 66.5%;
+}
+    header {
+    width: 99%;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 203px;
+}
+
+    .header__logo {
+    	width: 190px;
+    	height: 35px;
+    	background: no-repeat url(img/logo1366.svg);
+    }
+
+}
+
