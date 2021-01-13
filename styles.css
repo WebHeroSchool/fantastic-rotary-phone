@@ -186,8 +186,16 @@ h1 {
     }
 
     .menu__item:last-child {
-    margin-right: 9px;
-}
+    	margin-right: 9px;
+	}
 
+	header {
+		margin-bottom: 112px;
+	}
+
+    h1 {
+    	font-size: 57px;
+
+    }
 }
 
