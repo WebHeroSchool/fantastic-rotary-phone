@@ -226,7 +226,9 @@ h1 {
     	top: 225px;
     	padding: 0 21% 0 0;
     }
+}
 
-
+@media (max-width: 1024px) {
+	
 }
 
