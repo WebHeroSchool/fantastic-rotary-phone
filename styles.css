@@ -159,7 +159,10 @@ h1 {
 
     .header__logo {
     	background: no-repeat url('img/logo.svg');
-    	background-size: 220px 38px;
+    	background-size: 215px 40px;
+    	width: 220px;
+    	height: 40px;
+
     }
 
     .menu {
