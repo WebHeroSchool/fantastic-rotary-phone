@@ -202,5 +202,18 @@ h1 {
     	margin: 0 0 18px 0;
     	line-height: 77px;
     }
+
+    .main__text {
+    	font-size: 20.6px;
+    	width: 428px;
+    	height: 43px;
+    	margin: 0 0 52px 0;
+    }
+
+    .main__button {
+    	font: 16px/20px robotoregular, arial, helvetica, sans-serif;
+    	width: 194px;
+    	padding: 16px 24px 16px 19px;
+    }
 }
 
