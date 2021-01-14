@@ -158,7 +158,7 @@ h1 {
     }
 
     .header__logo {
-    	background: url('img/logo.svg');
+    	background: no-repeat url('img/logo.svg');
     	background-size: 220px 38px;
     }
 
