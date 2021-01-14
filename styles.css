@@ -195,7 +195,7 @@ h1 {
 	}
 
 	header {
-		margin-bottom: 112px;
+		margin-bottom: 113px;
 	}
 
     h1 {
@@ -219,10 +219,9 @@ h1 {
 
     .main__picture {
     	background: top right no-repeat url(img/main.svg);
-    	background-size: 350px 490px;
-    	left: 650px;
-    	top: 230px;
-    	padding: 0 12%;
+    	background-size: 585px 500px;
+    	top: 225px;
+    	padding: 0 21% 0 0;
     }
 
 
