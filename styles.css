@@ -158,8 +158,8 @@ h1 {
     }
 
     .header__logo {
-    	background: url('img/logo1366.svg');
-}
+    	background: url('img/logo.svg');
+    	background-size: 220px 38px;
     }
 
     .menu {
