@@ -157,6 +157,11 @@ h1 {
     	padding: 40px 0;
     }
 
+    .header__logo {
+    	background: url('img/logo1366.svg');
+}
+    }
+
     .menu {
     	padding: 8px;
     }
@@ -215,5 +220,7 @@ h1 {
     .main__picture {
     	background: top right no-repeat url(img/main1366.svg);
     }
+
+
 }
 
