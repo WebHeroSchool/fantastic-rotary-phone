@@ -218,7 +218,12 @@ h1 {
     }
 
     .main__picture {
-    	background: top right no-repeat url(img/main1366.svg);
+    	background: top right no-repeat url(img/main.svg);
+    	width: 290px;
+    	height: 490px;
+    	left: 650;
+    	top: 230px;
+    	padding: 0 12%;
     }
 
 
