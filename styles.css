@@ -292,7 +292,21 @@ h1 {
     }
 }
 
+@media (max-width: 375px) {
+    .header {
+    	margin-bottom: 28px;
+    }
 
+    .menu {
+       display: none;
+    }
+
+    .main__picture {
+    	padding: 74% 0 0;
+    	background-size: 74%;
+    	background-position: top center;
+    }
+}
 
 
 
