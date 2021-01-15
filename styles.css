@@ -229,6 +229,40 @@ h1 {
 }
 
 @media (max-width: 1024px) {
-	
+	.wrapper {
+		width: 91%;
+	}
+
+	.menu {
+		padding: 9px;
+	}
+
+	.menu__item_start {
+		left: 190px;
+	}
+
+	.menu__item_active {
+		left: 196px;
+	}
+
+	.menu__item_about {
+		left: 202px;
+	}
+
+    .menu__item_blog {
+    	left: 210px;
+    }
+
+    .menu__item_contact-us {
+    	margin-right: 54px;
+    }
 }
+
+
+
+
+
+
+
+
 
