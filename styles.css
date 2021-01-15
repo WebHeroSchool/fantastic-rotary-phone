@@ -233,35 +233,39 @@ h1 {
 		width: 91%;
 	}
 
+	header {
+		padding: 37px 0;
+	}
+
 	.header__logo {
 		background: no-repeat url(img/logo.svg);
-		background-size: 221px 41px;
+		background-size: 214px 40px;
 		width: 221px;
 		height: 41px;
 	}
 
 	.menu {
-		padding: 9px;
+		padding: 13px;
 	}
 
 	.menu__item_start {
-		left: 190px;
+		left: 194px;
 	}
 
 	.menu__item_active {
-		left: 196px;
+		left: 199px;
 	}
 
 	.menu__item_about {
-		left: 202px;
+		left: 204px;
 	}
 
     .menu__item_blog {
-    	left: 210px;
+    	left: 212px;
     }
 
-    .menu__item_contact-us {
-    	margin-right: 54px;
+    .menu__item:last-child {
+    	margin-right: 60px;
     }
 }
 
