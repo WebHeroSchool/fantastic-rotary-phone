@@ -297,14 +297,35 @@ h1 {
     	margin-bottom: 28px;
     }
 
+    .header__logo {
+		background: no-repeat url(img/logomobile.svg);
+		background-size: 208px 40px;
+		width: 208px;
+		height: 40px;
+	}
+
     .menu {
        display: none;
+    }
+
+    h1 {
+    	margin-bottom: 44px;
+    	font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+    }
+
+    .main__text {
+    	margin-bottom: 25px;
+    	font: 500 16px/19px robotoregular, arial, helvetica, sans-serif;
     }
 
     .main__picture {
     	padding: 74% 0 0;
     	background-size: 74%;
     	background-position: top center;
+    }	
+
+    .main__button {
+    	font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
     }
 }
 
