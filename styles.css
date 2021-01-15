@@ -284,6 +284,12 @@ h1 {
     	font: 15.5px/20px robotoregular, arial, helvetica, sans-serif;
     	width: 186px;
     }
+
+    .main__picture {
+    	background-size: 570px 485px;
+    	top: 215px;
+    	padding: 0 25% 0 0;
+    }
 }
 
 
