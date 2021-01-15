@@ -233,6 +233,13 @@ h1 {
 		width: 91%;
 	}
 
+	.header__logo {
+		background: no-repeat url(img/logo.svg);
+		background-size: 221px 41px;
+		width: 221px;
+		height: 41px;
+	}
+
 	.menu {
 		padding: 9px;
 	}
