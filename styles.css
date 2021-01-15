@@ -293,15 +293,21 @@ h1 {
 }
 
 @media (max-width: 375px) {
+
+	.wrapper {
+		width: 75%;
+	}
+    
     .header {
     	margin-bottom: 28px;
+    	padding: 44px 0;
     }
 
     .header__logo {
 		background: no-repeat url(img/logomobile.svg);
-		background-size: 208px 40px;
-		width: 208px;
-		height: 40px;
+		background-size: 76px 75px;
+		width: 76px;
+		height: 75px;
 	}
 
     .menu {
@@ -319,7 +325,8 @@ h1 {
     }
 
     .main__picture {
-    	padding: 74% 0 0;
+    	padding: 0 0 0 0;
+    	left: 30px;
     	background-size: 74%;
     	background-position: top center;
     }	
