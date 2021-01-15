@@ -326,9 +326,10 @@ h1 {
 
     .main__picture {
     	padding: 0 0 0 0;
-    	left: 30px;
-    	background-size: 74%;
+    	left: 29px;
+    	background-size: 81%;
     	background-position: top center;
+    	top: 190px;
     }	
 
     .main__button {
