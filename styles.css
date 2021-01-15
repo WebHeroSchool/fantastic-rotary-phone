@@ -273,6 +273,17 @@ h1 {
     	margin: 0 0 11px 0;
     	font-size: 55px;
     }
+
+    .main__text {
+    	font-size: 20px;
+    	line-height: 24px;
+    	margin: 0 0 49px 0;
+    }
+
+    .main__button {
+    	font: 15.5px/20px robotoregular, arial, helvetica, sans-serif;
+    	width: 186px;
+    }
 }
 
 
