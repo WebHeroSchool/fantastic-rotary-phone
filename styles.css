@@ -322,16 +322,15 @@ h1 {
     }
 
     h1 {
-    	margin-bottom: 44px;
-    	font: bold 69px/85px pt_serif, arial, helvetica, sans-serif;
-    	margin: 0 0 71px 40px;
-    	width: 650px;
+    	font: bold 71px/87px pt_serif, arial, helvetica, sans-serif;
+    	margin: 0 0 75px 20px;
+    	width: 675px;
     }
 
     .main__text {
-    	margin-bottom: 25px;
-    	margin: 0 0 0 40px;
-    	font: 500 31px/26px robotoregular, arial, helvetica, sans-serif;
+    	margin: 0 0 0 95px;
+    	width: 541px;
+    	font: 600 35.5px/42px robotoregular, arial, helvetica, sans-serif;
     }
 
     .main__picture {
@@ -343,7 +342,11 @@ h1 {
     }	
 
     .main__button {
-    	font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
+    	font: 600 30.5px/17.5px robotoregular, arial, helvetica, sans-serif;
+    	margin: 136px 132px;
+    	width: 459px;
+    	padding: 42px 0 42px 0;
+    	border-radius: 9px;
     }
 }
 
