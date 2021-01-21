@@ -349,9 +349,9 @@ h1 {
     	border-radius: 9px;
     }
 
-    #menu__toggle {
+    /*#menu__toggle {
   		opacity: 0;
-	}
+	}*/
 
 	.menu__btn {
   		display: flex;
