@@ -366,7 +366,7 @@ h1 {
   width: 25px;
   height: 17px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu__btn > span,
@@ -390,15 +390,17 @@ h1 {
 .menu__box {
   display: block;
   position: fixed;
-  visibility: hidden;
   top: 0;
+  visibility: hidden;
   left: -100%;
-  width: 300px;
+  width: 770px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
   list-style: none;
   text-align: center;
+  background-color: white;
+  z-index: 1;
 }
 
 .menu__item {
@@ -423,33 +425,13 @@ h1 {
   left: 0;
 }
 
-/*.main__tittle {
-	display: none;
-}
-
-.main__picture {
-	display: none;
-}
-
-.main__text {
-	display: none;
-}
-
-.main__button {
-	display: none;
-}
-
-.header__logo {
-	display: none;
-}
-*/
 .menu__item_active::after {
 	display: none;
 }
 
 .menu__item_start {
 	margin-top: 345px;
-	margin-left: 118px;
+	margin-right: 360px;
 }
 
 .menu__item {
@@ -459,23 +441,28 @@ h1 {
 
 .menu__item_active {
 	margin-top: 86px;
-	margin-left: 61px;
+	margin-right: 365px;
 }
 
 .menu__item_about {
 	margin-top: 88px;
-	margin-left: 92px;
+	margin-right: 380px;
 }
 
 .menu__item_blog {
 	margin-top: 89px;
-	margin-left: 98px;
+	margin-right: 390px;
 }
 
 .menu__item_contact-us {
 	margin-top: 83px;
-	margin-left: 9px;
+}
+
+.menu__item:last-child {
+	margin-right: 400px;
 }
 
 
+
+}
 
