@@ -477,6 +477,5 @@ h1 {
 	margin-left: 9px;
 }
 
-#checkbox:checked ~ .main__tittle {
-	display: none;
-}
+
+
