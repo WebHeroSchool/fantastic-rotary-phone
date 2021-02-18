@@ -498,7 +498,7 @@
   }
 
 
-@media (min-width: 376px) and (max-width: 640px) {
+/*@media (min-width: 376px) and (max-width: 459px) {
   .wrapper {
     width: 89%;
   }
@@ -549,7 +549,7 @@
     width: 166px;
   }
 }
-
+*/
 @media (min-width: 641px) and (max-width: 730px) {
   .wrapper {
     width: 90%;
