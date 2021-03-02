@@ -146,7 +146,7 @@
 
     .main__picture {
 	    padding: 0 39% 100px 0;
-	    width: 770px;
+	    /*width: 770px;*/
 	    position: absolute;
 	    height: 657px;
 	    top: 242px;
@@ -194,7 +194,8 @@
     }
 
     .main__picture {
-      padding: 0 39.5% 100px 0;
+      padding: 0 40% 100px 0;
+      left: 955px;
     }
 }
 
@@ -247,7 +248,7 @@
     }
 
     .menu__item:last-child {
-      margin-right: 17px;
+      margin-right: 2%;
     }
 
 	  header {
@@ -279,13 +280,15 @@
 
     .main__picture {
     	background: top right no-repeat url(img/main.svg);
-    	background-size: 520px 440px;
+    	background-size: 515px 440px;
     	top: 195px;
-    	padding: 0 12% 0 0;
+    	padding: 0 0 0 0;
+      width: 40%;
+      margin-left: -350px;
     }
 }
 
-@media (max-width: 1024px) and (min-width: 801px) {
+@media (max-width: 1024px) {
 
 	  .wrapper {
 		  width: 92.5%;
@@ -347,20 +350,22 @@
     }
 
     .main__picture {
-    	background-size: 510px 435px;
-    	padding: 0 15.5% 0 0;
+    	background-size: 515px 435px;
+    	padding: 0 0 0 0;
+      width: 50%;
+      margin-left: -490px;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
 
     .wrapper {
 		  width: 91%;
 	  }
     
     .header {
-    	margin-bottom: 28px;
-    	padding: 16px 0;
+    	margin-bottom: 9%;
+    	padding: 4.8% 0;
     }
 
     .header__logo {
@@ -376,30 +381,31 @@
 
     h1 {
     	font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
-    	margin: -440px 100px 35px 17px;
-    	width: 300px;
+    	margin: -135% 55% 11% 5%;
+    	width: 92%;
       letter-spacing: 1.3px;
     }
 
     .main__text {
-    	margin: 0 25px 0 40px;
-    	width: 255px;
-    	font: 600 16px/18px robotoregular, arial, helvetica, sans-serif;
+    	margin: 0 0 0 11%;
+    	width: 80%;
+    	font: 600 16.5px/18px robotoregular, arial, helvetica, sans-serif;
     }
 
     .main__picture {
     	padding: 0 0 0 0;
-    	left: -197px;
-    	background-size: 36%;
+      width: 80%;
+    	left: 143%;
     	background-position: top center;
-    	top: 85px;
+    	top: 13%;
+      background: no-repeat url(img/mainmobile.svg);
     }	
 
     .main__button {
     	font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
-    	margin: 38px 0;
-    	width: 202px;
-    	padding: 14px 8px 14px 0;
+    	margin: 11.5% 0;
+    	width: 61.5%;
+    	padding: 4.5% 2.5% 4% 0;
     	border-radius: 4px;
     }
 
@@ -411,7 +417,7 @@
       display: flex; 
       align-items: center;
       position: fixed;
-      left: 326px;
+      left: 87%;
       cursor: pointer;
       z-index: 2;
     }
@@ -439,10 +445,10 @@
       top: 0;
       visibility: hidden;
       left: -100%;
-      width: 770px;
+      width: 204%;
       height: 100%;
       margin: 0;
-      padding: 80px 0;
+      padding: 21% 0;
       list-style: none;
       text-align: center;
       background-color: white;
@@ -464,217 +470,69 @@
       left: 0;
     }
     .menu__item {
-      font-size: 29px;
+      font-size: 31px;
       font-weight: 700;
       display: block;
-      padding: 12px 24px;
+      padding: 1.6% 14%;
       color: #333;
     }
     .menu__item_start {
-	     margin-top: 99px;
-	     margin-right: 625px;
+	     margin-top: 13%;
+	     margin-right: 59%;
     }
     .menu__item_active {
-	     margin-top: 16px;
-	     margin-left: -612px;
+	     margin-top: 2%;
+	     margin-left: -57%;
     }
     .menu__item_active::after {
        display: none;
     }
     .menu__item_about {
-	     margin-top: 15px;
-	     margin-right: 622px;
+	     margin-top: 2%;
+	     margin-right: 59%;
     }
     .menu__item_blog {
-	     margin-top: 15px;
-	     margin-right: 625px;
+	     margin-top: 2%;
+	     margin-right: 59%;
     }
     .menu__item_contact-us {
 	     margin-top: 15px;
     }
     .menu__item:last-child {
-	     margin-left: -530.5px;
+	     margin-left: -57%;
     }
   }
 
 
-/*@media (min-width: 376px) and (max-width: 459px) {
-  .wrapper {
-    width: 89%;
-  }
 
-  .header__logo {
-    width: 265px;
-  }
+  @media (min-width: 501px) and (max-width: 1000px) {
+    .menu__item_start {
+      left: 55%;
+    }
 
-  .menu__item {
-    font-size: 15px;
-  }
+    .menu__item_active {
+      left: 55%;
+    }
 
-  .menu__item_start {
-    left: 270px;
-  }
+    .menu__item_about {
+      left: 55%;
+    }
 
-  .menu__item_active {
-    left: 267px;
-  }
+    .menu__item-blog {
+      left: 55%;
+    }
 
-  .menu__item_about {
-    left: 266px;
-  }
+    .menu__item_contact-us {
+      left: 150%;
+      top: -20px;
+    }
 
-  .menu__item_blog {
-    left: 268px;
-  }
+    .header__logo {
+      width: 75%;
+    }
 
-  .menu__item_contact-us {
-    left: 530px;
-    top: -20px;
-  }
 
-  h1 {
-    font-size: 45px;
-    width: 555px;
-  }
 
-  .main__text {
-    font-size: 17px;
-  }
-
-  .main__picture {
-    background-size: 480px 410px;
-  }
-
-  .main__button {
-    width: 166px;
-  }
-}
-*/
-@media (min-width: 641px) and (max-width: 730px) {
-  .wrapper {
-    width: 90%;
-  }
-
-  .header__logo {
-    width: 250px;
-  }
-
-  .menu__item {
-    font-size: 16px;
-  }
-
-  .menu__item_start {
-    left: 275px;
-  }
-
-  .menu__item_active {
-    left: 275px;
-  }
-
-  .menu__item_about {
-    left: 276px;
-  }
-
-  .menu__item_blog {
-    left: 276px;
-  }
-
-  .menu__item_contact-us {
-    left: 275px;
-  }
-
-  h1 {
-    font-size: 47px;
-    margin: 0 0 44px 0;
-  }
-
-  .main__text {
-    font-size: 17px;
-    margin: 0 0 47px 0;
-  }
-
-  .main__picture {
-    background-size: 510px 450px;
-    padding: 0 17% 0 0;
-  }
-}
-
-@media (min-width: 731px) and (max-width: 800px) {
-
-  .menu__item {
-    font-size: 15px;
-  }
-
-  .menu__item_strat {
-    left: 295px;
-  }
-
-  .menu__item_active {
-    left: 293px;
-  }
-
-  .menu__item_about {
-    left: 291px;
-  }
-
-  .menu__item_blog {
-    left: 292px;
-  }
-
-  .menu__item_contact-us {
-    left: 293px;
-  }
-
-  .main__tittle {
-    font-size: 50px;
-  }
-
-  .main__picture {
-    background-size: 500px 445px;
-  }
-
-}
-
-@media (min-width: 377px) and (max-width: 460px) {
-  .header__logo {
-    width: 380px;
-  }
-
-  .menu__item_start {
-    left: 260px;
-  }
-
-  .menu__item_active {
-    left: 265px;
-  }
-
-  .menu__item_about {
-    left: 405px;
-    top: -20px;
-  }
-
-  .menu__item_blog {
-    left: 405px;
-    top: -20px;
-  }
-
-  .menu__item_contact-us {
-    left: 525px;
-    top: -41px;
-  }
-
-  h1 {
-    font-size: 44px;
-    margin: 0 0 35px 0;
-  }
-
-  .main__text {
-    margin: 0 0 35px 0;
-  }
-
-  .main__picture {
-  background-size: 470px 420px;
-}
 
 
 
