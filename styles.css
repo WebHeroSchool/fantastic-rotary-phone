@@ -156,6 +156,47 @@
 	    background: #ECF3FF;
     }
 
+@media (min-width: 1921px) {
+  .wrapper {
+      width: 80%;
+    }
+
+    header {
+      padding: 32px 0;
+      margin-bottom: 209px;
+    }
+
+    .hamburger-menu {
+      margin-top: -13px;
+    }
+
+    .menu__item_about {
+      left: -2px;
+    }
+
+    .menu__item_blog {
+      left: -1px;
+    }
+
+    .menu__item_contact-us {
+      left: 0;
+    }
+
+    .main__text {
+      margin: 0 0 39px 0;
+    }
+
+    .main__button {
+      width: 215px;
+      padding: 19px 33px 19px 23px;
+    }
+
+    .main__picture {
+      padding: 0 40% 100px 0;
+      left: 955px;
+    }
+}
+
 @media (min-width: 1920px) and (max-width: 1920px) {
   .wrapper {
       width: 80%;
@@ -1044,11 +1085,11 @@
       transform: rotate(45deg);
     }
     #menu__toggle:checked ~ .menu__btn > span::before {
-      top: 24px;
+      top: 6px;
       transform: rotate(0);
     }
     #menu__toggle:checked ~ .menu__btn > span::after {
-      top: 24px;
+      top: 6px;
       transform: rotate(90deg);
     }
     #menu__toggle:checked ~ .menu__box {
@@ -1064,28 +1105,28 @@
     }
     .menu__item_start {
        margin-top: 13%;
-       margin-right: 59%;
+       margin-right: 53%;
     }
     .menu__item_active {
        margin-top: 2%;
-       margin-left: -57%;
+       margin-left: -52%;
     }
     .menu__item_active::after {
        display: none;
     }
     .menu__item_about {
        margin-top: 2%;
-       margin-right: 59%;
+       margin-right: 53%;
     }
     .menu__item_blog {
        margin-top: 2%;
-       margin-right: 59%;
+       margin-right: 56%;
     }
     .menu__item_contact-us {
        margin-top: 15px;
     }
     .menu__item:last-child {
-       margin-left: -57%;
+       margin-left: -56%;
     }
   }
 
@@ -1191,11 +1232,11 @@
       transform: rotate(45deg);
     }
     #menu__toggle:checked ~ .menu__btn > span::before {
-      top: 24px;
+      top: 6px;
       transform: rotate(0);
     }
     #menu__toggle:checked ~ .menu__btn > span::after {
-      top: 24px;
+      top: 6px;
       transform: rotate(90deg);
     }
     #menu__toggle:checked ~ .menu__box {
@@ -1210,28 +1251,29 @@
       color: #333;
     }
     .menu__item_start {
-	     margin-top: 13%;
-	     margin-right: 59%;
+	     margin-top: 13.4%;
+	     margin-right: 51%;
     }
     .menu__item_active {
-	     margin-top: 2%;
-	     margin-left: -57%;
+	     margin-top: 1.7%;
+	     margin-left: -50%;
     }
     .menu__item_active::after {
        display: none;
     }
     .menu__item_about {
 	     margin-top: 2%;
-	     margin-right: 59%;
+	     margin-right: 52%;
     }
     .menu__item_blog {
 	     margin-top: 2%;
-	     margin-right: 59%;
+	     margin-right: 54%;
     }
     .menu__item_contact-us {
 	     margin-top: 15px;
     }
     .menu__item:last-child {
-	     margin-left: -57%;
+	     margin-left: -56%;
+       margin-top: 1.6%;
     }
   }
