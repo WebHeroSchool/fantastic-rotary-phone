@@ -1041,7 +1041,7 @@
     .menu__btn {
       display: flex; 
       align-items: center;
-      position: fixed;
+      position: absolute;
       left: 87%;
       cursor: pointer;
       z-index: 2;
@@ -1066,14 +1066,14 @@
     }
     .menu__box {
       display: block;
-      position: fixed;
+      position: absolute;
       top: 0;
       visibility: hidden;
       left: -100%;
       width: 204%;
       height: 100%;
       margin: 0;
-      padding: 21% 0;
+      padding: 21% 0 100% 0;
       list-style: none;
       text-align: center;
       background-color: white;
@@ -1187,8 +1187,8 @@
     .menu__btn {
       display: flex; 
       align-items: center;
-      position: fixed;
-      left: 87%;
+      position: absolute;
+      left: 86%;
       cursor: pointer;
       z-index: 2;
     }
@@ -1212,7 +1212,7 @@
     }
     .menu__box {
       display: block;
-      position: fixed;
+      position: absolute;
       top: 0;
       visibility: hidden;
       left: -100%;
@@ -1248,29 +1248,39 @@
       color: #333;
     }
     .menu__item_start {
-	     margin-top: 13.4%;
-	     margin-right: 51%;
+	     /*margin-top: 13.4%;
+	     margin-right: 51%;*/
+       margin-top: 13%;
+       margin-left: -49%;
     }
     .menu__item_active {
-	     margin-top: 1.7%;
-	     margin-left: -50%;
+	     /*margin-top: 1.7%;
+	     margin-left: -50%;*/
+       margin-top: 2%;
+       margin-left: -50%;
     }
     .menu__item_active::after {
        display: none;
     }
     .menu__item_about {
-	     margin-top: 2%;
-	     margin-right: 52%;
+	     /*margin-top: 2%;
+	     margin-right: 52%;*/
+       margin-top: 2%;
+       margin-left: -50%;
     }
     .menu__item_blog {
-	     margin-top: 2%;
-	     margin-right: 54%;
+	     /*margin-top: 2%;
+	     margin-right: 54%;*/
+       margin-top: 2%;
+       margin-left: -53%;
     }
     .menu__item_contact-us {
-	     margin-top: 15px;
+	     /*margin-top: 15px;*/
     }
     .menu__item:last-child {
-	     margin-left: -56%;
-       margin-top: 1.6%;
+	     /*margin-left: 0;
+       margin-top: 7%;*/
+       margin-top: 2%;
+       margin-left: -56%;
     }
   }
