@@ -892,7 +892,7 @@
     .menu__btn {
       display: flex; 
       align-items: center;
-      position: fixed;
+      position: absolute;
       left: 87%;
       cursor: pointer;
       z-index: 2;
@@ -917,14 +917,14 @@
     }
     .menu__box {
       display: block;
-      position: fixed;
+      position: absolute;
       top: 0;
       visibility: hidden;
       left: -100%;
       width: 204%;
       height: 100%;
       margin: 0;
-      padding: 21% 0;
+      padding: 21% 0 100% 0;
       list-style: none;
       text-align: center;
       background-color: white;
@@ -1219,7 +1219,7 @@
       width: 204%;
       height: 100%;
       margin: 0;
-      padding: 21% 0;
+      padding: 21% 0 100% 0;
       list-style: none;
       text-align: center;
       background-color: white;
