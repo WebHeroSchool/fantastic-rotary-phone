@@ -903,17 +903,17 @@
       display: block;
       position: absolute;
       width: 25px;
-      margin-top: -6px;
+      margin-top: -24px;
       height: 3px;
       background-color: #0056EC;
     }
     .menu__btn > span::before {
       content: '';
-      top: -1px;
+      top: 15px;
     }
     .menu__btn > span::after {
       content: '';
-      top: 13px;
+      top: 32px;
     }
     .menu__box {
       display: block;
@@ -954,28 +954,28 @@
     }
     .menu__item_start {
        margin-top: 13%;
-       margin-right: 59%;
+       margin-right: 51%;
     }
     .menu__item_active {
        margin-top: 2%;
-       margin-left: -57%;
+       margin-left: -50%;
     }
     .menu__item_active::after {
        display: none;
     }
     .menu__item_about {
        margin-top: 2%;
-       margin-right: 59%;
+       margin-right: 51%;
     }
     .menu__item_blog {
        margin-top: 2%;
-       margin-right: 59%;
+       margin-right: 53%;
     }
     .menu__item_contact-us {
        margin-top: 15px;
     }
     .menu__item:last-child {
-       margin-left: -57%;
+       margin-left: -53%;
     }
   }
 
