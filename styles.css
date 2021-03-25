@@ -37,7 +37,7 @@
 	    padding: 0 6px;
 	    color: #000;
 	    text-decoration: none;
-	    transition: opacity .5s;
+	    transition: opacity 0.5s;
     }
 
     .menu__item_blog {
@@ -57,7 +57,7 @@
 	    height: 3px;
 	    background: #0056ec;
 	    opacity: 0;
-	    transition: opacity .5s;
+	    transition: opacity 0.5s;
     }
 
     .menu__item_active::after {
@@ -74,7 +74,7 @@
     }
 
     .menu__item:hover {
-	    opacity: .5;
+	    opacity: 0.5;
     }
 
     .menu__item:hover:after {
@@ -126,7 +126,7 @@
 	    padding: 19px 28px ;
 	    text-decoration: none;
 	    border-radius: 4px;
-	    transition: opacity .5s;
+	    transition: opacity 0.5s;
       animation: radial-pulse 1s infinite;
      }   
 
@@ -141,7 +141,7 @@
     }
 
     .main__button:hover {
-	    opacity: .5;
+	    opacity: 0.5;
     }
 
     .main__picture {
@@ -606,7 +606,7 @@
     margin: 0 0 33px 0;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: .1px;
+    letter-spacing: 0.1px;
   }
 
   .main__picture {
@@ -676,7 +676,7 @@
     	font-size: 18px;
     	line-height: 22px;
     	margin: 0 0 42px 0;
-      letter-spacing: .1px;
+      letter-spacing: 0.1px;
     }
 
     .main__button {
@@ -752,7 +752,7 @@
       font-size: 16px;
       line-height: 22px;
       margin: 0 0 42px 0;
-      letter-spacing: .1px;
+      letter-spacing: 0.1px;
       width: 400px;
     }
 
