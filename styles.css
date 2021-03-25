@@ -1248,14 +1248,10 @@
       color: #333;
     }
     .menu__item_start {
-	     /*margin-top: 13.4%;
-	     margin-right: 51%;*/
        margin-top: 13%;
        margin-left: -49%;
     }
     .menu__item_active {
-	     /*margin-top: 1.7%;
-	     margin-left: -50%;*/
        margin-top: 2%;
        margin-left: -50%;
     }
@@ -1263,23 +1259,15 @@
        display: none;
     }
     .menu__item_about {
-	     /*margin-top: 2%;
-	     margin-right: 52%;*/
        margin-top: 2%;
        margin-left: -50%;
     }
     .menu__item_blog {
-	     /*margin-top: 2%;
-	     margin-right: 54%;*/
        margin-top: 2%;
        margin-left: -53%;
     }
-    .menu__item_contact-us {
-	     /*margin-top: 15px;*/
-    }
+    
     .menu__item:last-child {
-	     /*margin-left: 0;
-       margin-top: 7%;*/
        margin-top: 2%;
        margin-left: -56%;
     }
