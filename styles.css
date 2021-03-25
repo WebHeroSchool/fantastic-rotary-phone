@@ -159,7 +159,7 @@
 
 @media (min-width: 1921px) {
 
-  .wrapper {
+    .wrapper {
       width: 80%;
     }
 
@@ -304,6 +304,7 @@
     
     header {
       padding: 32px 0;
+      margin-bottom: 82px;
     }
 
     .header__logo {
@@ -347,10 +348,6 @@
       margin-right: 2%;
     }
 
-    header {
-      margin-bottom: 82px;
-    }
-
     h1 {
       font-size: 50px;
       margin: 0 0 38px 0;
@@ -392,6 +389,7 @@
     
     header {
       padding: 32px 0;
+      margin-bottom: 104px;
     }
 
     .header__logo {
@@ -433,10 +431,6 @@
 
     .menu__item:last-child {
       margin-right: 2%;
-    }
-
-    header {
-      margin-bottom: 104px;
     }
 
     h1 {
@@ -481,6 +475,7 @@
     
     header {
     	padding: 32px 0;
+      margin-bottom: 104px;
     }
 
     .header__logo {
@@ -523,10 +518,6 @@
     .menu__item:last-child {
       margin-right: 2%;
     }
-
-	  header {
-		  margin-bottom: 104px;
-	  }
 
     h1 {
     	font-size: 50px;
@@ -1173,7 +1164,7 @@
 		  width: 91%;
 	  }
     
-    .header {
+    header {
     	margin-bottom: 9%;
     	padding: 4.8% 0;
     }
