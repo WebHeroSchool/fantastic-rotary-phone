@@ -15,7 +15,7 @@
       margin-bottom: 203px;
     }
 
-    .wrapper{
+    .wrapper {
       margin: auto;
       width: 80%;
     }
@@ -897,6 +897,7 @@
       cursor: pointer;
       z-index: 2;
     }
+
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
@@ -907,14 +908,17 @@
       height: 3px;
       background-color: #0056ec;
     }
+
     .menu__btn > span::before {
       content: '';
       top: 15px;
     }
+
     .menu__btn > span::after {
       content: '';
       top: 32px;
     }
+
     .menu__box {
       display: block;
       position: absolute;
@@ -930,21 +934,26 @@
       background-color: white;
       z-index: 1;
     }
+
     #menu__toggle:checked ~ .menu__btn > span {
       transform: rotate(45deg);
     }
+
     #menu__toggle:checked ~ .menu__btn > span::before {
       top: 24px;
       transform: rotate(0);
     }
+
     #menu__toggle:checked ~ .menu__btn > span::after {
       top: 24px;
       transform: rotate(90deg);
     }
+
     #menu__toggle:checked ~ .menu__box {
       visibility: visible;
       left: 0;
     }
+
     .menu__item {
       font-size: 31px;
       font-weight: 700;
@@ -952,31 +961,39 @@
       padding: 1.6% 14%;
       color: #333;
     }
+
     .menu__item_start {
        margin-top: 13%;
        margin-right: 51%;
     }
+
     .menu__item_active {
        margin-top: 2%;
        margin-left: -50%;
     }
+
     .menu__item_active::after {
        display: none;
     }
+
     .menu__item_about {
        margin-top: 2%;
        margin-right: 51%;
     }
+
     .menu__item_blog {
        margin-top: 2%;
        margin-right: 53%;
     }
+
     .menu__item_contact-us {
        margin-top: 15px;
     }
+
     .menu__item:last-child {
        margin-left: -53%;
     }
+
   }
 
 
@@ -984,6 +1001,7 @@
 
 
 @media (min-width: 401px) and (max-width: 509px) {
+
     .wrapper {
       width: 91%;
     }
@@ -1046,6 +1064,7 @@
       cursor: pointer;
       z-index: 2;
     }
+
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
@@ -1056,14 +1075,17 @@
       height: 3px;
       background-color: #0056EC;
     }
+
     .menu__btn > span::before {
       content: '';
       top: -1px;
     }
+
     .menu__btn > span::after {
       content: '';
       top: 13px;
     }
+
     .menu__box {
       display: block;
       position: absolute;
@@ -1079,21 +1101,26 @@
       background-color: white;
       z-index: 1;
     }
+
     #menu__toggle:checked ~ .menu__btn > span {
       transform: rotate(45deg);
     }
+
     #menu__toggle:checked ~ .menu__btn > span::before {
       top: 6px;
       transform: rotate(0);
     }
+
     #menu__toggle:checked ~ .menu__btn > span::after {
       top: 6px;
       transform: rotate(90deg);
     }
+
     #menu__toggle:checked ~ .menu__box {
       visibility: visible;
       left: 0;
     }
+
     .menu__item {
       font-size: 31px;
       font-weight: 700;
@@ -1101,31 +1128,39 @@
       padding: 1.6% 14%;
       color: #333;
     }
+
     .menu__item_start {
        margin-top: 13%;
        margin-right: 53%;
     }
+
     .menu__item_active {
        margin-top: 2%;
        margin-left: -52%;
     }
+
     .menu__item_active::after {
        display: none;
     }
+
     .menu__item_about {
        margin-top: 2%;
        margin-right: 53%;
     }
+
     .menu__item_blog {
        margin-top: 2%;
        margin-right: 56%;
     }
+
     .menu__item_contact-us {
        margin-top: 15px;
     }
+
     .menu__item:last-child {
        margin-left: -56%;
     }
+
   }
 
 @media (max-width: 400px) {
@@ -1192,6 +1227,7 @@
       cursor: pointer;
       z-index: 2;
     }
+
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
@@ -1202,14 +1238,17 @@
       height: 3px;
       background-color: #0056ec;
     }
+
     .menu__btn > span::before {
       content: '';
       top: -1px;
     }
+
     .menu__btn > span::after {
       content: '';
       top: 13px;
     }
+
     .menu__box {
       display: block;
       position: absolute;
@@ -1225,21 +1264,26 @@
       background-color: white;
       z-index: 1;
     }
+
     #menu__toggle:checked ~ .menu__btn > span {
       transform: rotate(45deg);
     }
+
     #menu__toggle:checked ~ .menu__btn > span::before {
       top: 6px;
       transform: rotate(0);
     }
+
     #menu__toggle:checked ~ .menu__btn > span::after {
       top: 6px;
       transform: rotate(90deg);
     }
+
     #menu__toggle:checked ~ .menu__box {
       visibility: visible;
       left: 0;
     }
+
     .menu__item {
       font-size: 31px;
       font-weight: 700;
@@ -1247,21 +1291,26 @@
       padding: 1.6% 14%;
       color: #333;
     }
+
     .menu__item_start {
        margin-top: 13%;
        margin-left: -49%;
     }
+
     .menu__item_active {
        margin-top: 2%;
        margin-left: -50%;
     }
+
     .menu__item_active::after {
        display: none;
     }
+
     .menu__item_about {
        margin-top: 2%;
        margin-left: -50%;
     }
+
     .menu__item_blog {
        margin-top: 2%;
        margin-left: -53%;
