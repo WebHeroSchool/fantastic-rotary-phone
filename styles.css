@@ -57,7 +57,7 @@
 	    height: 3px;
 	    background: #0056ec;
 	    opacity: 0;
-	    transition:opacity .5s;
+	    transition: opacity .5s;
     }
 
     .menu__item_active::after {
