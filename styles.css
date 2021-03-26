@@ -4,16 +4,14 @@
 	             background: url('img/logo.svg');
 }
 
-    input {
-	     opacity: 0;
-    }
+input {opacity: 0;}
 
-    header {
-	     padding: 30px 0;
-       display: flex;
-       justify-content: space-between;
-       margin-bottom: 203px;
-    }
+header {
+	      padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 203px;
+}
 
 .wrapper {
           margin: auto;
@@ -306,9 +304,7 @@
       margin-bottom: 82px;
     }
 
-.header__logo {
-               background: no-repeat url('img/logo1024.svg');
-}
+.header__logo { background: no-repeat url('img/logo1024.svg'); }
 
     .hamburger-menu {
       padding: 8px;
