@@ -15,16 +15,16 @@
        margin-bottom: 203px;
     }
 
-    .wrapper {
-       margin: auto;
-       width: 80%;
-    }
+.wrapper {
+          margin: auto;
+          width: 80%;
+}
 
-    .menu {
+.menu {
        display: flex;
        padding: 11px;
        align-content: center;
-    }
+}
 
     .menu__item {
 	     font-family: robotoregular, arial, helvetica, sans-serif;
@@ -306,9 +306,9 @@
       margin-bottom: 82px;
     }
 
-    .header__logo {
-      background: no-repeat url('img/logo1024.svg');
-    }
+.header__logo {
+               background: no-repeat url('img/logo1024.svg');
+}
 
     .hamburger-menu {
       padding: 8px;
