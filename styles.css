@@ -606,7 +606,7 @@ h1 {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1023px) {
 
 	  .wrapper {
 		  width: 92.5%;
@@ -675,158 +675,16 @@ h1 {
     }
 }
 
-@media (min-width: 651px) and (max-width: 899px) {
+@media (min-width: 651px) and (max-width: 768px) {
 
-    .wrapper {
-      width: 92.5%;
-    }
-
-    header {
-      padding: 32px 0;
-      margin-bottom: 180px;
-    }
-
-    .header__logo {
-      width: 40%;
-      background: no-repeat url(img/logo.svg);
-    }
-
-    .menu {
-      padding: 12px;
-    }
-
-    .menu__item_start {
-      left: 17%;
-      top: -13px;
-    }
-
-    .menu__item_active {
-      left: 17%;
-      top: -13px;
-    }
-
-    .menu__item_about {
-      left: 17%;
-      top: -13px;
-    }
-
-    .menu__item_blog {
-      left: 17%;
-      top: -13px;
-    }
-
-    .menu__item:last-child {
-      margin-right: 99px;
-    }
-
-    .menu__item_contact-us {
-      left: 17%;
-      top: -13px;
-    }
-
-    h1 {
-      line-height: 65px;
-      margin: 0 0 -22px 0;
-      letter-spacing: -0.5px;
-      font-size: 41px;
-      width: 500px;
-    }
-
-    .main__text {
-      font-size: 16px;
-      line-height: 22px;
-      margin: 0 0 42px 0;
-      letter-spacing: 0.1px;
-      width: 400px;
-    }
-
-    .main__button {
-      font: 14px/20px robotoregular, arial, helvetica, sans-serif;
-      width: 168px;
-    }
-
-    .main__picture {
-      background-size: 390px 320px;
-      padding: 0 0 0 0;
-      width: 60%;
-      top: 310px;
-      margin-left: 340px;
-    }
-
-}
-
-@media (min-width: 551px) and (max-width: 650px) {
-    .wrapper {
-      width: 93%;
-      margin: auto;
-    }
-
-    header {
-      margin-bottom: 150px;
-    }
-
-    .header__logo {
-      width: 48%;
-      background: no-repeat url(img/logo.svg);
-    }
-
-    .menu__item_start {
-      top: -13px;
-      left: 5%;
-    }
-
-    .menu__item_active {
-      top: -13px;
-      left: 5%;
-    }
-
-    .menu__item_about {
-      top: -13px;
-      left: 5%;
-    }
-
-    .menu__item_blog {
-      left: 5%;
-      top: -13px;
-    }
-
-    .menu__item_contact-us {
-      left: 98.5%;
-      top: -35px;
-    }
-
-    .main__tittle {
-      font-size: 30px;
-      line-height: 46px;
-      width: 300px;
-      margin: 191px 0 0 0;
-    }
-
-    .main__text {
-      width: 350px;
-      font-size: 18px;
-      margin: -80px 0 50px 0;
-    }
-
-    .main__picture {
-      padding: 34%;
-      top: 270px;
-      margin-left: 34%;
-      background: top right no-repeat url(img/mainmobile.svg);
-    }
-
-}
-
-@media (min-width: 510px) and (max-width: 550px) {
-
-    .wrapper {
-      width: 80%;
+  .wrapper {
+      width: 90%;
       margin: auto;
     }
     
     .header {
       margin-bottom: 9%;
-      padding: 4.8% 0;
+      padding: 5.8% 0;
     }
 
     .header__logo {
@@ -835,30 +693,32 @@ h1 {
 
     .main {
       text-align: center;
-      padding: 210% 0 0;
       background-size: 74%;
       background-position: top center;
     }
 
     h1 {
       font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
-      margin: -145% 55% -32% 5%;
+      margin-top: 68%;
+      margin-left: 6%;
       width: 92%;
+      height: 5%;
       letter-spacing: 1.3px;
     }
 
     .main__text {
-      margin: 8% 0 0 11%;
-      width: 80%;
-      font: 600 18px/18px robotoregular, arial, helvetica, sans-serif;
+      margin: 0 0 0 8%;
+      width: 90%;
+      font: 600 24px/28px robotoregular, arial, helvetica, sans-serif;
     }
 
     .main__picture {
       padding: 0 0 0 0;
-      width: 80%;
-      left: 22%;
+      width: 280px;
+      height: 239px;
+      left: 34%;
       background-position: top center;
-      top: 13%;
+      top: 20%;
       background: no-repeat url(img/mainmobile.svg);
     } 
 
@@ -878,7 +738,7 @@ h1 {
       display: flex; 
       align-items: center;
       position: absolute;
-      left: 87%;
+      left: 90%;
       cursor: pointer;
       z-index: 2;
     }
@@ -906,7 +766,339 @@ h1 {
 
     .menu__box {
       display: block;
+      position: fixed;
+      top: 0;
+      visibility: hidden;
+      left: -100%;
+      width: 204%;
+      height: 100%;
+      margin: 0;
+      padding: 21% 0 100% 0;
+      list-style: none;
+      text-align: center;
+      background-color: white;
+      z-index: 1;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::before {
+      top: 24px;
+      transform: rotate(0);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 24px;
+      transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+      visibility: visible;
+      left: 0;
+    }
+
+    .menu__item {
+      font-size: 31px;
+      font-weight: 700;
+      display: block;
+      padding: 1.6% 14%;
+      color: #333;
+    }
+
+    .menu__item_start {
+       margin-top: 13%;
+       margin-right: 51%;
+    }
+
+    .menu__item_active {
+       margin-top: 2%;
+       margin-left: -50%;
+    }
+
+    .menu__item_active::after {
+       display: none;
+    }
+
+    .menu__item_about {
+       margin-top: 2%;
+       margin-right: 51%;
+    }
+
+    .menu__item_blog {
+       margin-top: 2%;
+       margin-right: 53%;
+    }
+
+    .menu__item_contact-us {
+       margin-top: 15px;
+    }
+
+    .menu__item:last-child {
+       margin-left: -53%;
+    }
+
+  }
+    
+@media (min-width: 551px) and (max-width: 650px) {
+
+  .wrapper {
+      width: 90%;
+      margin: auto;
+    }
+    
+    .header {
+      margin-bottom: 9%;
+      padding: 5.8% 0;
+    }
+
+    .header__logo {
+      background: no-repeat url(img/logomobile.svg);
+    }
+
+    .main {
+      text-align: center;
+      background-size: 74%;
+      background-position: top center;
+    }
+
+    h1 {
+      font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
+      margin-top: 62%;
+      margin-left: 5%;
+      width: 92%;
+      height: 5%;
+      letter-spacing: 1.3px;
+    }
+
+    .main__text {
+      margin: 13% 0 0 9%;
+      width: 85%;
+      font: 600 23px/24px robotoregular, arial, helvetica, sans-serif;
+    }
+
+    .main__picture {
+      padding: 0 0 0 0;
+      width: 50%;
+      left: 29%;
+      background-position: top center;
+      top: 13%;
+      background: no-repeat url(img/mainmobile.svg);
+    } 
+
+    .main__button {
+      font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
+      margin: 11% 0;
+      width: 61.5%;
+      padding: 4.5% 2.5% 4% 0;
+      border-radius: 4px;
+    }
+
+    #menu__toggle {
+      opacity: 0;
+    }
+
+    .menu__btn {
+      display: flex; 
+      align-items: center;
       position: absolute;
+      left: 95%;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 25px;
+      margin-top: -24px;
+      height: 3px;
+      background-color: #0056ec;
+    }
+
+    .menu__btn > span::before {
+      content: '';
+      top: 15px;
+    }
+
+    .menu__btn > span::after {
+      content: '';
+      top: 32px;
+    }
+
+    .menu__box {
+      display: block;
+      position: fixed;
+      top: 0;
+      visibility: hidden;
+      left: -100%;
+      width: 204%;
+      height: 100%;
+      margin: 0;
+      padding: 21% 0 100% 0;
+      list-style: none;
+      text-align: center;
+      background-color: white;
+      z-index: 1;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::before {
+      top: 24px;
+      transform: rotate(0);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 24px;
+      transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+      visibility: visible;
+      left: 0;
+    }
+
+    .menu__item {
+      font-size: 31px;
+      font-weight: 700;
+      display: block;
+      padding: 1.6% 14%;
+      color: #333;
+    }
+
+    .menu__item_start {
+       margin-top: 13%;
+       margin-right: 51%;
+    }
+
+    .menu__item_active {
+       margin-top: 2%;
+       margin-left: -50%;
+    }
+
+    .menu__item_active::after {
+       display: none;
+    }
+
+    .menu__item_about {
+       margin-top: 2%;
+       margin-right: 51%;
+    }
+
+    .menu__item_blog {
+       margin-top: 2%;
+       margin-right: 53%;
+    }
+
+    .menu__item_contact-us {
+       margin-top: 15px;
+    }
+
+    .menu__item:last-child {
+       margin-left: -53%;
+    }
+
+  }
+    
+@media (min-width: 510px) and (max-width: 550px) {
+
+    .wrapper {
+      width: 85%;
+      margin: auto;
+    }
+    
+    .header {
+      margin-bottom: 9%;
+      padding: 4.8% 0;
+    }
+
+    .header__logo {
+      background: no-repeat url(img/logomobile.svg);
+    }
+
+    .main {
+      text-align: center;
+      
+      background-size: 74%;
+      background-position: top center;
+    }
+
+    h1 {
+      font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
+      margin-top: 70%;
+      margin-left: 8%;
+      width: 92%;
+      height: 5%;
+      letter-spacing: 1.3px;
+    }
+
+    .main__text {
+      margin: 8% 0 0 11%;
+      width: 85%;
+      font: 600 20px/24px robotoregular, arial, helvetica, sans-serif;
+    }
+
+    .main__picture {
+      padding: 0 0 0 0;
+      width: 280px;
+      height: 239px;
+      left: 26%;
+      background-position: top center;
+      top: 13%;
+      background: no-repeat url(img/mainmobile.svg);
+    } 
+
+    .main__button {
+      font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
+      margin: 11% 0;
+      width: 61.5%;
+      padding: 4.5% 2.5% 4% 0;
+      border-radius: 4px;
+    }
+
+    #menu__toggle {
+      opacity: 0;
+    }
+
+    .menu__btn {
+      display: flex; 
+      align-items: center;
+      position: absolute;
+      left: 93%;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 25px;
+      margin-top: -24px;
+      height: 3px;
+      background-color: #0056ec;
+    }
+
+    .menu__btn > span::before {
+      content: '';
+      top: 15px;
+    }
+
+    .menu__btn > span::after {
+      content: '';
+      top: 32px;
+    }
+
+    .menu__box {
+      display: block;
+      position: fixed;
       top: 0;
       visibility: hidden;
       left: -100%;
@@ -981,7 +1173,7 @@ h1 {
 
   }
 
-@media (min-width: 401px) and (max-width: 509px) {
+@media (min-width: 450px) and (max-width: 509px) {
 
     .wrapper {
       width: 91%;
@@ -998,28 +1190,30 @@ h1 {
 
     .main {
       text-align: center;
-      padding: 210% 0 0;
       background-size: 74%;
       background-position: top center;
     }
 
     h1 {
       font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
-      margin: -135% 55% -32% 5%;
+      margin-top: 67%;
+      margin-left: 6%;
       width: 92%;
+      height: 5%;
       letter-spacing: 1.3px;
     }
 
     .main__text {
-      margin: 0 0 0 11%;
-      width: 80%;
-      font: 600 16.5px/18px robotoregular, arial, helvetica, sans-serif;
+      margin: 0 0 0 12%;
+      width: 85%;
+      font: 600 20px/22px robotoregular, arial, helvetica, sans-serif;
     }
 
     .main__picture {
       padding: 0 0 0 0;
-      width: 80%;
-      left: 13%;
+      width: 280px;
+      height: 239px;
+      left: 22%;
       background-position: top center;
       top: 13%;
       background: no-repeat url(img/mainmobile.svg);
@@ -1041,7 +1235,7 @@ h1 {
       display: flex; 
       align-items: center;
       position: absolute;
-      left: 87%;
+      left: 93%;
       cursor: pointer;
       z-index: 2;
     }
@@ -1069,7 +1263,172 @@ h1 {
 
     .menu__box {
       display: block;
+      position: fixed;
+      top: 0;
+      visibility: hidden;
+      left: -100%;
+      width: 204%;
+      height: 100%;
+      margin: 0;
+      padding: 21% 0 100% 0;
+      list-style: none;
+      text-align: center;
+      background-color: white;
+      z-index: 1;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::before {
+      top: 6px;
+      transform: rotate(0);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 6px;
+      transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+      visibility: visible;
+      left: 0;
+    }
+
+    .menu__item {
+      font-size: 31px;
+      font-weight: 700;
+      display: block;
+      padding: 1.6% 14%;
+      color: #333;
+    }
+
+    .menu__item_start {
+       margin-top: 13%;
+       margin-right: 53%;
+    }
+
+    .menu__item_active {
+       margin-top: 2%;
+       margin-left: -52%;
+    }
+
+    .menu__item_active::after {
+       display: none;
+    }
+
+    .menu__item_about {
+       margin-top: 2%;
+       margin-right: 53%;
+    }
+
+    .menu__item_blog {
+       margin-top: 2%;
+       margin-right: 56%;
+    }
+
+    .menu__item_contact-us {
+       margin-top: 15px;
+    }
+
+    .menu__item:last-child {
+       margin-left: -56%;
+    }
+
+  }
+
+  @media (min-width: 401px) and (max-width: 449px) {
+
+    .wrapper {
+      width: 91%;
+    }
+    
+    .header {
+      margin-bottom: 9%;
+      padding: 4.8% 0;
+    }
+
+    .header__logo {
+      background: no-repeat url(img/logomobile.svg);
+    }
+
+    .main {
+      text-align: center;
+      background-size: 74%;
+      background-position: top center;
+    }
+
+    h1 {
+      font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
+      margin-top: 77%;
+      margin-left: 6%;
+      width: 92%;
+      height: 5%;
+      letter-spacing: 1.3px;
+    }
+
+    .main__text {
+      margin: 0 0 0 12%;
+      width: 80%;
+      font: 600 18px/22px robotoregular, arial, helvetica, sans-serif;
+    }
+
+    .main__picture {
+      padding: 0 0 0 0;
+      width: 280px;
+      height: 239px;
+      left: 19%;
+      background-position: top center;
+      top: 13%;
+      background: no-repeat url(img/mainmobile.svg);
+    } 
+
+    .main__button {
+      font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
+      margin: 9% 0;
+      width: 61.5%;
+      padding: 4.5% 2.5% 4% 0;
+      border-radius: 4px;
+    }
+
+    #menu__toggle {
+      opacity: 0;
+    }
+
+    .menu__btn {
+      display: flex; 
+      align-items: center;
       position: absolute;
+      left: 91%;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 25px;
+      margin-top: -6px;
+      height: 3px;
+      background-color: #0056EC;
+    }
+
+    .menu__btn > span::before {
+      content: '';
+      top: -1px;
+    }
+
+    .menu__btn > span::after {
+      content: '';
+      top: 13px;
+    }
+
+    .menu__box {
+      display: block;
+      position: fixed;
       top: 0;
       visibility: hidden;
       left: -100%;
@@ -1161,20 +1520,23 @@ h1 {
 
     .main {
     	text-align: center;
-    	padding: 210% 0 0;
+    	
     	background-size: 74%;
     	background-position: top center;
     }
 
     h1 {
     	font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
-    	margin: -135% 55% -32% 5%;
+    	margin-top: 84%;
+      margin-left: 5%;
     	width: 92%;
+      height: 15%;
       letter-spacing: 1.3px;
     }
 
     .main__text {
-    	margin: 0 0 0 11%;
+    	margin-top: -3%;
+      margin-left: 11%;
     	width: 80%;
     	font: 600 16.5px/18px robotoregular, arial, helvetica, sans-serif;
     }
@@ -1190,7 +1552,7 @@ h1 {
 
     .main__button {
     	font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
-    	margin: 9% 0;
+    	margin: -3% 0;
     	width: 61.5%;
     	padding: 4.5% 2.5% 4% 0;
     	border-radius: 4px;
@@ -1204,7 +1566,7 @@ h1 {
       display: flex; 
       align-items: center;
       position: absolute;
-      left: 86%;
+      left: 87%;
       cursor: pointer;
       z-index: 2;
     }
@@ -1232,7 +1594,7 @@ h1 {
 
     .menu__box {
       display: block;
-      position: absolute;
+      position: fixed;
       top: 0;
       visibility: hidden;
       left: -100%;
