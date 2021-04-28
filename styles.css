@@ -609,7 +609,7 @@ h1 {
 @media (min-width: 769px) and (max-width: 1023px) {
 
 	  .wrapper {
-		  width: 92.5%;
+		  width: 97%;
 	  }
 
 	  header {
@@ -652,7 +652,8 @@ h1 {
     	line-height: 65px;
     	margin: 0 0 -22px 0;
       letter-spacing: -0.5px;
-    	font-size: 51px;
+    	font-size: 43px;
+      width: 400px;
     }
 
     .main__text {
@@ -668,10 +669,10 @@ h1 {
     }
 
     .main__picture {
-    	background-size: 490px 410px;
+    	background-size: 420px 350px;
     	padding: 0 0 0 0;
-      width: 60%;
-      margin-left: 340px;
+      width: 100%;
+      margin-left: -18px;
     }
 }
 
@@ -1543,7 +1544,8 @@ h1 {
 
     .main__picture {
     	padding: 0 0 0 0;
-      width: 80%;
+      width: 280px;
+      height: 239px;
     	left: 13%;
     	background-position: top center;
     	top: 13%;
