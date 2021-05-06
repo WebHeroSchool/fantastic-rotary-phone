@@ -25,7 +25,7 @@ header {
 }
 
 .menu__item {
-	           font-family: robotoregular, arial, helvetica, sans-serif;
+	           font-family: robotomedium, arial, helvetica, sans-serif;
              font-weight: 500;
 	           font-style: normal;
 	           font-size: 18px;
@@ -112,7 +112,7 @@ h1 {
 .main__button {
 	             display: inline-block;
 	             margin-bottom: 317px;
-	             font: 18px/21px robotoregular, arial, helvetica, sans-serif;
+	             font: 18px/21px robotomedium, arial, helvetica, sans-serif;
 	             color: #fff;
 	             background: #0056ec;
 	             padding: 19px 28px ;
@@ -160,17 +160,24 @@ h1 {
     .hamburger-menu {
       margin-top: -13px;
     }
+    .menu__item_start {
+      left: 6px;
+    }
+
+    .menu__item_active {
+      left: 3px;
+    }
 
     .menu__item_about {
-      left: -2px;
+      left: 1px;
     }
 
     .menu__item_blog {
-      left: -1px;
+      left: 2px;
     }
 
     .menu__item_contact-us {
-      left: 0;
+      left: 3px;
     }
 
     .main__text {
@@ -219,8 +226,8 @@ h1 {
     }
 
     .main__button {
-      width: 215px;
-      padding: 19px 33px 19px 23px;
+      width: 216px;
+      padding: 19px 33px 19px 19px;
     }
 
     .main__picture {
@@ -295,7 +302,7 @@ h1 {
       margin-bottom: 82px;
     }
 
-.header__logo { background: no-repeat url('img/logo1024.svg'); }
+    .header__logo { background: no-repeat url('img/logo1024.svg'); }
 
     .hamburger-menu {
       padding: 8px;
@@ -311,11 +318,11 @@ h1 {
     }
 
     .menu__item_start {
-     left: 11px;
+     left: 13px;
     }
 
     .menu__item_active {
-     left: 9px;
+     left: 11px;
     }
 
     .menu__item_about {
@@ -354,7 +361,7 @@ h1 {
     .main__button {
       font: 14px/20px robotoregular, arial, helvetica, sans-serif;
       width: 168px;
-      padding: 13px 24px 11px 17px;
+      padding: 13px 26px 11px 17px;
     }
 
     .main__picture {
@@ -554,27 +561,27 @@ h1 {
   }
 
   .menu__item_start {
-    left: 8px;
+    left: 9px;
     top: -12px;
   }
 
   .menu__item_active {
-    left: 6px;
+    left: 7px;
     top: -12px;
   }
 
   .menu__item_about {
-    left: 4px;
+    left: 5px;
     top: -12px;
   }
 
   .menu__item_blog {
-    left: 4px;
+    left: 5px;
     top: -12px;
   }
 
   .menu__item_contact-us {
-    left: 4px;
+    left: 5px;
     top: -12px;
   }
 
@@ -1527,12 +1534,11 @@ h1 {
     }
 
     h1 {
-    	font: 1000 30px/38.5px pt_serif, arial, helvetica, sans-serif;
+    	font: 700 30px/38px pt_serifbold, arial, helvetica, sans-serif;
     	margin-top: 84%;
       margin-left: 5%;
     	width: 92%;
       height: 15%;
-      letter-spacing: 1.3px;
     }
 
     .main__text {
@@ -1638,13 +1644,13 @@ h1 {
     }
 
     .menu__item_start {
-       margin-top: 13%;
-       margin-left: -49%;
+       margin-top: 13.5%;
+       margin-left: -53%;
     }
 
     .menu__item_active {
-       margin-top: 2%;
-       margin-left: -50%;
+       margin-top: 1.5%;
+       margin-left: -52%;
     }
 
     .menu__item_active::after {
