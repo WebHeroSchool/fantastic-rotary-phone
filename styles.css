@@ -200,6 +200,7 @@ h1 {
 }
 
 @media (min-width: 1920px) and (max-width: 1920px) {
+
     .wrapper {
              width: 80%;
     }
@@ -575,7 +576,7 @@ h1 {
       width: 51%;
       margin-left: 39%;
     }
-}
+  }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
   
@@ -647,7 +648,7 @@ h1 {
     background-size: 515px 435px;
     padding: 0 0 0 0 ;
     width: 50%;
-    margin-left: 420px;
+    margin-left: 358px;
   }
 
   .main__button {
@@ -1572,7 +1573,6 @@ h1 {
 
     .main {
     	text-align: center;
-    	
     	background-size: 74%;
     	background-position: top center;
     }
