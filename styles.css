@@ -197,6 +197,14 @@ h1 {
       padding: 0 40% 100px 0;
       left: 955px;
     }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 90%;
+      padding: 20px;
+      left: 50%;
+    }
 }
 
 @media (min-width: 1920px) and (max-width: 1920px) {
@@ -254,6 +262,14 @@ h1 {
       padding: 0 40% 100px 0;
       left: 955px;
     }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 95.6%;
+      left: 944px;
+      padding: 20px;
+    }
 }
 
 @media (min-width: 1501px ) and (max-width: 1919px ) {
@@ -266,6 +282,14 @@ h1 {
       padding: 0 60% 100px 0;
       left: 540px;
       background-size: 710px 640px;
+    }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 95%;
+      left: 50%;
+      padding: 20px;
     }
 }
 
@@ -308,6 +332,14 @@ h1 {
     .main__picture {
       padding: 0 60% 100px 0;
       left: 550px;
+    }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 95%;
+      left: 50%;
+      padding: 20px;
     }
 }
 
@@ -405,6 +437,14 @@ h1 {
       width: 51%;
       margin-left: 17%;
     }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 94%;
+      left: 48.8%;
+      padding: 20px;
+    }
 }
 
 @media (min-width: 1201px) and (max-width: 1365px) {
@@ -489,6 +529,14 @@ h1 {
       padding: 0 0 0 0;
       width: 51%;
       margin-left: 30%;
+    }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 95.6%;
+      left: 50%;
+      padding: 20px;
     }
 }
 
@@ -576,6 +624,14 @@ h1 {
       width: 51%;
       margin-left: 39%;
     }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 95.6%;
+      left: 50%;
+      padding: 20px;
+    }
   }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -648,7 +704,7 @@ h1 {
     background-size: 515px 435px;
     padding: 0 0 0 0 ;
     width: 50%;
-    margin-left: 358px;
+    margin-left: 420px;
   }
 
   .main__button {
@@ -656,6 +712,14 @@ h1 {
     padding: 14px 17px;
     width: 175px;
   }
+
+  .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 94%;
+      left: 48.4%;
+      padding: 20px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -725,6 +789,14 @@ h1 {
     	padding: 0 0 0 0;
       width: 100%;
       margin-left: -18px;
+    }
+
+    .main__points {
+      background: no-repeat url(img/points.svg);
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      padding: 20px;
     }
 }
 
@@ -1581,12 +1653,12 @@ h1 {
     	font: 700 30px/38px pt_serifbold, arial, helvetica, sans-serif;
     	margin-top: 84%;
       margin-left: 5%;
+      margin-bottom: 11%;
     	width: 92%;
       height: 15%;
     }
 
     .main__text {
-    	margin-top: -3%;
       margin-left: 11%;
     	width: 80%;
     	font: 600 16.5px/18px robotoregular, arial, helvetica, sans-serif;
