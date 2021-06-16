@@ -732,6 +732,7 @@ h1 {
 
 	  header {
 		  padding: 32px 0;
+      margin-bottom: 103px;
 	  }
 
 	  .header__logo {
@@ -796,7 +797,7 @@ h1 {
     .main__points {
       background: no-repeat url(img/points.svg);
       position: absolute;
-      top: 100%;
+      top: 95%;
       left: 50%;
       padding: 20px;
     }
@@ -825,7 +826,7 @@ h1 {
     }
 
     h1 {
-      font: 1000 30px/38.5px pt_serifbold, arial, helvetica, sans-serif;
+      font: 1000 36px/48.5px pt_serifbold, arial, helvetica, sans-serif;
       margin-top: 68%;
       margin-left: 6%;
       width: 92%;
@@ -1323,7 +1324,7 @@ h1 {
 
     h1 {
       font: 1000 30px/38.5px pt_serifbold, arial, helvetica, sans-serif;
-      margin-top: 67%;
+      margin-top: 70%;
       margin-left: 6%;
       width: 92%;
       height: 5%;
@@ -1342,7 +1343,7 @@ h1 {
       height: 239px;
       left: 22%;
       background-position: top center;
-      top: 13%;
+      top: 10%;
       background: no-repeat url(img/mainmobile.svg);
     } 
 
