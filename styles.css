@@ -850,12 +850,13 @@ h1 {
 
     .main__picture {
       padding: 0 0 0 0;
-      width: 280px;
-      height: 239px;
-      left: 34%;
+      width: 400px;
+      height: 345px;
+      left: 24%;
       background-position: top center;
-      top: 150px;
+      top: 140px;
       background: no-repeat url(img/mainmobile.svg);
+      background-size: 90%
     } 
 
     .main__button {
