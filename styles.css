@@ -795,9 +795,10 @@ h1 {
     }
 
     .main__picture {
-    	background-size: 420px 350px;
+    	background-size: 400px 330px;
     	padding: 0 0 0 0;
       width: 100%;
+      top: 220px;
       margin-left: -18px;
     }
 
@@ -853,7 +854,7 @@ h1 {
       height: 239px;
       left: 34%;
       background-position: top center;
-      top: 20%;
+      top: 150px;
       background: no-repeat url(img/mainmobile.svg);
     } 
 
@@ -1018,7 +1019,7 @@ h1 {
       width: 50%;
       left: 29%;
       background-position: top center;
-      top: 13%;
+      top: 100px;
       background: no-repeat url(img/mainmobile.svg);
     } 
 
@@ -1185,7 +1186,7 @@ h1 {
       height: 239px;
       left: 26%;
       background-position: top center;
-      top: 13%;
+      top: 90px;
       background: no-repeat url(img/mainmobile.svg);
     } 
 
@@ -1515,7 +1516,7 @@ h1 {
       height: 239px;
       left: 19%;
       background-position: top center;
-      top: 13%;
+      top: 90px;
       background: no-repeat url(img/mainmobile.svg);
     } 
 
