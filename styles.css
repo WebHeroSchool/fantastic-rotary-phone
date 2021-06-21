@@ -145,7 +145,8 @@ h1 {
     }
 
     .main__tittle-text_highlight {
-	    background: #ECF3FF;
+	    /*background: #ECF3FF;*/
+      background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
     }
 
 
