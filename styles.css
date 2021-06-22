@@ -144,10 +144,7 @@ h1 {
 	    background: top right no-repeat url(img/main.svg);
     }
 
-    .main__tittle-text_highlight {
-	    /*background: #ECF3FF;*/
-      background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
-    }
+    .main__tittle-text_highlight {background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);}
 
 
 
