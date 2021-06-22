@@ -81,7 +81,7 @@ header {
 	                       background: #0056ec;
 }
 
-.menu__item:hover:after, .menu__item_active:after { opacity: 1; }
+.menu__item:hover::after, .menu__item_active::after { opacity: 1; }
 
 h1 {
 	  font-family: 'pt_serifbold', arial, helvetica, sans-serif;
