@@ -124,7 +124,12 @@ h1 {
 
 @keyframes radial-pulse {
                          0% {
-                             box-shadow: 0 0 0 0px rgba(23, 22, 22, 0.5);
+                             box-shadow: 0 0 0 0px rgba(
+                               23,
+                               22,
+                               22,
+                               0.5
+                            );
                          }
 
                          100% {
