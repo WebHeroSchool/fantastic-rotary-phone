@@ -121,7 +121,7 @@ h1 {
 	             transition: opacity 0.5s;
                animation: radial-pulse 1s infinite;
 }  
- 
+
 
 @keyframes radial-pulse {
                          0% {
@@ -768,7 +768,7 @@ h1 {
                text-align: center;
                background-color: white;
                z-index: 1;
-  }
+              }
 
   #menu__toggle:checked ~ .menu__btn > span { transform: rotate(45deg); }
 
