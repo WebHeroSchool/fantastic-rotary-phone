@@ -142,14 +142,14 @@ h1 {
 	               background: top right no-repeat url(img/main.svg);
 }
 
-.main__tittle-text_highlight {background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ecf3ff 15%);}
+.main__tittle-text_highlight { background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ecf3ff 15%); }
 
 @media (min-width: 1921px) {
     .wrapper { width: 80%; }
 
     header {
-      padding: 32px 0;
-      margin-bottom: 209px;
+             padding: 32px 0;
+             margin-bottom: 209px;
     }
 
     .hamburger-menu { margin-top: -13px; }
