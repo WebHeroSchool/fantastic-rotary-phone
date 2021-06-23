@@ -152,39 +152,39 @@ h1 {
     margin-bottom: 209px;
   }
 
-    .hamburger-menu { margin-top: -13px; }
+  .hamburger-menu { margin-top: -13px; }
 
-    .menu__item_start { left: 6px; }
+  .menu__item_start { left: 6px; }
 
-    .menu__item_active { left: 3px; }
+  .menu__item_active { left: 3px; }
 
-    .menu__item_about { left: 1px; }
+  .menu__item_about { left: 1px; }
 
-    .menu__item_blog { left: 2px; }
+  .menu__item_blog { left: 2px; }
 
-    .menu__item_contact-us { left: 3px; }
+  .menu__item_contact-us { left: 3px; }
 
-    .main__text { margin: 0 0 39px 0; }
+  .main__text { margin: 0 0 39px 0; }
 
-    .main__button {
-                   width: 216px;
-                   padding: 19px 33px 19px 23px;
-    }
+  .main__button {
+    width: 216px;
+    padding: 19px 33px 19px 23px;
+  }
 
-    .main__button:hover { opacity: 1; }
+  .main__button:hover { opacity: 1; }
 
-    .main__picture {
-                     padding: 0 40% 100px 0;
-                     left: 955px;
-    }
+  .main__picture {
+    padding: 0 40% 100px 0;
+    left: 955px;
+  }
 
-    .main__points {
-                   background: no-repeat url(img/points.svg);
-                   position: absolute;
-                   top: 90%;
-                   padding: 20px;
-                   left: 50%;
-    }
+  .main__points {
+    background: no-repeat url(img/points.svg);
+    position: absolute;
+    top: 90%;
+    padding: 20px;
+    left: 50%;
+  }
 }
 
 @media (min-width: 1920px) and (max-width: 1920px) {
