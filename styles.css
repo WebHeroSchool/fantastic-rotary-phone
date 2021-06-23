@@ -85,16 +85,16 @@ header {
 .menu__item_active:after { opacity: 1; }
 
 h1 {
-	  font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-	  font-weight: normal;
-	  font-style: normal;
-	  font-size: 66px;
-	  line-height: 87.45px;
-	  width: 567px;
-	  height: 255px;
-	  top: 318px;
-	  left: 195px;
-	  margin: 191px 0 44px 0;
+	font-family: 'pt_serifbold', arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 66px;
+	line-height: 87.45px;
+	width: 567px;
+	height: 255px;
+	top: 318px;
+	left: 195px;
+  margin: 191px 0 44px 0;
 }
 
 .main__text {
