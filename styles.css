@@ -35,10 +35,7 @@ header {
 	           padding: 0 6px;
 	           color: #000;
 	           text-decoration: none;
-	           transition: opacity
-                                 0.5s;
-
-
+	           transition: opacity 0.5s;
 }
 
 .menu__item_blog {
