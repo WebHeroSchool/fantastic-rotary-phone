@@ -98,35 +98,35 @@ h1 {
 }
 
 .main__text {
-	           font-family: robotoregular, arial, helvetica, sans-serif;
-	           font-weight: 400;
-	           font-style: normal;
-	           font-size: 22px;
-	           line-height: 25.78px;
-	           width: 455px;
-	           height: 52px;
-	           top: 613px;
-	           left: 195px;
-	           margin: 0 0 40px 0;
+	font-family: robotoregular, arial, helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  font-size: 22px;
+	line-height: 25.78px;
+	width: 455px;
+	height: 52px;
+	top: 613px;
+	left: 195px;
+	margin: 0 0 40px 0;
 }
 
 .main__button {
-	             display: inline-block;
-	             margin-bottom: 317px;
-	             font: 18px/21px robotomedium, arial, helvetica, sans-serif;
-	             color: #fff;
-	             background: #0056ec;
-	             padding: 19px 28px;
-	             text-decoration: none;
-	             border-radius: 4px;
-	             transition: opacity 0.5s;
-               animation: radial-pulse 1s infinite;
+  display: inline-block;
+	margin-bottom: 317px;
+	font: 18px/21px robotomedium, arial, helvetica, sans-serif;
+	color: #fff;
+	background: #0056ec;
+	padding: 19px 28px;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: opacity 0.5s;
+  animation: radial-pulse 1s infinite;
 }  
 
 @keyframes radial-pulse {
                          0% {
                              box-shadow: 0 0 0 0 rgba(23, 22, 22, 0.5);
-                           }
+}
                          100% {
                              box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
                            }
@@ -135,11 +135,11 @@ h1 {
 .main__button:hover { opacity: 0.5; }
 
 .main__picture {
-	               padding: 0 39% 100px 0;
-	               position: absolute;
-	               height: 657px;
-	               top: 242px;
-	               background: top right no-repeat url(img/main.svg);
+	padding: 0 39% 100px 0;
+	position: absolute;
+	height: 657px;
+	top: 242px;
+	background: top right no-repeat url(img/main.svg);
 }
 
 .main__tittle-text_highlight { background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%); }
