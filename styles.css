@@ -1002,9 +1002,9 @@ h1 {
     width: 280px;
     height: 239px;
     left: 26%;
-    background-position: top center;
     top: 90px;
     background: no-repeat url(img/mainmobile.svg);
+    background-position: top center;
   } 
 
   .main__button {
