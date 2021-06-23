@@ -850,10 +850,10 @@ h1 {
     padding: 0 0 0 0;
     width: 50%;
     left: 29%;
-    background-position: top center;
     top: 100px;
     background: no-repeat url(img/mainmobile.svg);
-  } 
+    background-position: top center;
+  }
 
   .main__button {
     font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
@@ -866,7 +866,7 @@ h1 {
   #menu__toggle { opacity: 0; }
 
   .menu__btn {
-    display: flex; 
+    display: flex;
     align-items: center;
     position: absolute;
     left: 95%;
@@ -941,7 +941,7 @@ h1 {
     margin-right: 51%;
   }
 
- .menu__item_active {
+  .menu__item_active {
     margin-top: 2%;
     margin-left: -50%;
   }
