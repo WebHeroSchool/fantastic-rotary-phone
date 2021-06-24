@@ -664,8 +664,8 @@ h1 {
     width: 90%;
     margin: auto;
   }
-    
- .header {
+
+  .header {
     margin-bottom: 9%;
     padding: 5.8% 0;
   }
@@ -1305,7 +1305,6 @@ h1 {
     background-position: top center;
   }
 
-
   .main__button {
     font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
     margin: 9% 0;
@@ -1453,7 +1452,7 @@ h1 {
     margin-left: 6%;
     margin-top: -42%;
     background: no-repeat url(img/mainmobile.svg);
-  }	
+  }
 
   .main__button {
     font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
