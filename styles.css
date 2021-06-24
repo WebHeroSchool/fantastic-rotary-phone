@@ -99,7 +99,7 @@ h1 {
   font-size: 22px;
 	line-height: 25.78px;
 	width: 455px;
-	height: 52px;
+  height: 52px;
 	top: 613px;
 	left: 195px;
 	margin: 0 0 40px 0;
@@ -368,7 +368,6 @@ h1 {
     padding: 20px;
   }
 }
-
 
 @media (min-width: 1201px) and (max-width: 1349px) {
   .wrapper { width: 75%; }
@@ -1005,8 +1004,8 @@ h1 {
     top: 90px;
     background: no-repeat url(img/mainmobile.svg);
     background-position: top center;
-  } 
-  
+  }
+
   .main__button {
     font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
     margin: 11% 0;
@@ -1151,9 +1150,9 @@ h1 {
     width: 280px;
     height: 239px;
     left: 22%;
-    background-position: top center;
     top: 10%;
     background: no-repeat url(img/mainmobile.svg);
+    background-position: top center;
   } 
 
   .main__button {
