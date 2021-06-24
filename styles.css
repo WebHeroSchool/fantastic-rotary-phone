@@ -443,10 +443,9 @@ h1 {
   }
 }
 
-
 @media (min-width: 1025px) and (max-width: 1200px) {
   .wrapper { width: 85%; }
-    
+
   header {
     padding: 32px 0;
     margin-bottom: 104px;
@@ -1319,6 +1318,7 @@ h1 {
 
   .menu__btn {
     display: flex;
+    
     align-items: center;
     position: absolute;
     left: 91%;
