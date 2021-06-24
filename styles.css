@@ -139,7 +139,7 @@ h1 {
 	background: top right no-repeat url(img/main.svg);
 }
 
-.main__tittle-text_highlight { background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%); }
+.main__tittle-text_highlight { background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%); }
 
 @media (min-width: 1921px) {
   .wrapper { width: 80%; }
@@ -602,7 +602,7 @@ h1 {
 @media (min-width: 769px) and (max-width: 1023px) {
   .wrapper { width: 97%; }
 
-	header {
+  header {
     padding: 32px 0;
     margin-bottom: 103px;
   }
@@ -615,7 +615,7 @@ h1 {
 
   .menu__item_active { left: 105px; }
 
-	.menu__item_about { left: 103px; }
+  .menu__item_about { left: 103px; }
 
   .menu__item_blog { left: 104px; }
 
@@ -1304,7 +1304,8 @@ h1 {
     top: 90px;
     background: no-repeat url(img/mainmobile.svg);
     background-position: top center;
-  } 
+  }
+
 
   .main__button {
     font: 100 14px/16px robotoregular, arial, helvetica, sans-serif;
@@ -1317,7 +1318,7 @@ h1 {
   #menu__toggle { opacity: 0; }
 
   .menu__btn {
-    display: flex; 
+    display: flex;
     align-items: center;
     position: absolute;
     left: 91%;
