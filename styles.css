@@ -1318,7 +1318,7 @@ h1 {
 
   .menu__btn {
     display: flex;
-    
+
     align-items: center;
     position: absolute;
     left: 91%;
@@ -1466,7 +1466,7 @@ h1 {
   #menu__toggle { opacity: 0; }
 
   .menu__btn {
-    display: flex; 
+    display: flex;
     align-items: center;
     position: absolute;
     left: 87%;
