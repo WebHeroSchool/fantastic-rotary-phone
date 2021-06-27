@@ -77,8 +77,7 @@ header {
   background: #0056ec;
 }
 
-.menu__item:hover:after,
-.menu__item_active:after { opacity: 1; }
+.menu__item:hover:after, .menu__item_active:after { opacity: 1; }
 
 h1 {
   font-family: 'pt_serifbold', arial, helvetica, sans-serif;
@@ -650,7 +649,7 @@ h1 {
     margin-left: -18px;
   }
 
- .main__points {
+  .main__points {
     background: no-repeat url(img/points.svg);
     position: absolute;
     top: 95%;
@@ -811,7 +810,7 @@ h1 {
 
   .menu__item:last-child { margin-left: -53%; }
 }
-    
+
 @media (min-width: 551px) and (max-width: 650px) {
   .wrapper {
     width: 90%;
@@ -1317,7 +1316,6 @@ h1 {
 
   .menu__btn {
     display: flex;
-
     align-items: center;
     position: absolute;
     left: 91%;
